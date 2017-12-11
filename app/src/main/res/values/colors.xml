@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- color scheme designer farben -->
+    <!-- primary -->
+    <color name="color_primary_0">#EED060</color>
+    <color name="color_primary_1">#B29630</color>
+    <color name="color_primary_2">#D1B346</color>
+    <color name="color_primary_3">#FFE37A</color>
+    <color name="color_primary_4">#FFE791</color>
+
+    <!-- secondary 1 -->
+    <color name="color_secondary_1_0">#5D2E81</color>
+    <color name="color_secondary_1_1">#9A75B6</color>
+    <color name="color_secondary_1_2">#764A98</color>
+    <color name="color_secondary_1_3">#491B6C</color>
+    <color name="color_secondary_1_4">#310850</color>
+
+    <!-- secondary 2 -->
+    <color name="color_secondary_2_0">#2E557D</color>
+    <color name="color_secondary_2_1">#7292B2</color>
+    <color name="color_secondary_2_2">#486D94</color>
+    <color name="color_secondary_2_3">#1B4169</color>
+    <color name="color_secondary_2_4">#092B4E</color>
+</resources>
