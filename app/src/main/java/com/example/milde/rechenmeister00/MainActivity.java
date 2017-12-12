@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showAuswahlSubtraktion() {
-        Intent intent = new Intent(getApplicationContext(), AuswahlSubraktionActivity.class);
+        Intent intent = new Intent(getApplicationContext(), AuswahlSubtraktionActivity.class);
         startActivity(intent);
     }
 
