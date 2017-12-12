@@ -14,14 +14,30 @@
 
 
     <TextView
-        android:id="@+id/textView"
-        style="@style/buttonStyle"
+        android:id="@+id/tvAufgabe_aufgaben10"
+        style="@style/excerciseStyle"
 
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="7 x 6 = ?"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="0dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAntwort_aufgaben10"
+        style="@style/answerStyle"
+
+        android:layout_width="@dimen/tvAntwort_aufgaben10_layout_width"
+        android:layout_height="wrap_content"
+        android:text="--"
+
+        android:layout_below="@id/tvAufgabe_aufgaben10"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="10dp"
         />
 
     <TableLayout
@@ -88,7 +104,7 @@
             <Button
                 android:id="@+id/btnKeyboardBack"
                 style="@style/buttonStyleSmall"
-                android:text="<-"
+                android:text="&lt;-"
 
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"

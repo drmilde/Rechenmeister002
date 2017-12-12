@@ -17,9 +17,19 @@ public class MainActivity extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainMenuActivity.class);
-                startActivity(intent);
+                //showMainMenu();
+                showAufgaben10();
             }
         });
+    }
+
+    private void showAufgaben10() {
+        Intent intent = new Intent(getApplicationContext(), Aufgaben10Activity.class);
+        startActivity(intent);
+    }
+
+    private void showMainMenu() {
+        Intent intent = new Intent(getApplicationContext(), MainMenuActivity.class);
+        startActivity(intent);
     }
 }

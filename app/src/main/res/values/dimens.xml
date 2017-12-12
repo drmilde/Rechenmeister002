@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tvAntwort_aufgaben10_layout_width">200dp</dimen>
+
+    <!-- font size -->
+    <dimen name="largeFontSize">40dp</dimen>
+    <dimen name="mediumFontSize">25dp</dimen>
+    <dimen name="smallFontSize">20dp</dimen>
+</resources>
