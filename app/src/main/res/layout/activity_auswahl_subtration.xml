@@ -11,7 +11,7 @@
     android:background="@color/color_secondary_1_2"
     android:padding="10dp"
 
-    tools:context="com.example.milde.rechenmeister00.AuswahlSubtrationActivity">
+    tools:context="com.example.milde.rechenmeister00.AuswahlSubtraktionActivity">
 
     <TextView
         android:id="@+id/tvSubtraktion_Heading"
