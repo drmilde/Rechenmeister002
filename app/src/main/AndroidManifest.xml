@@ -19,7 +19,8 @@
         <activity android:name=".MainMenuActivity" />
         <activity android:name=".Aufgaben10Activity" />
         <activity android:name=".AuswahlAdditionActivity" />
-        <activity android:name=".AuswahlSubtraktionActivity"></activity>
+        <activity android:name=".AuswahlSubtraktionActivity" />
+        <activity android:name=".AuswahlMultiplikationActivity"></activity>
     </application>
 
 </manifest>

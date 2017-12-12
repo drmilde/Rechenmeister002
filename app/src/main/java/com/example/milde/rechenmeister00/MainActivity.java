@@ -20,9 +20,15 @@ public class MainActivity extends AppCompatActivity {
                 //showMainMenu();
                 //showAufgaben10();
                 //showAuswahlAddition();
-                showAuswahlSubtraktion();
+                //showAuswahlSubtraktion();
+                showAuswahlMultiplikation();
             }
         });
+    }
+
+    private void showAuswahlMultiplikation() {
+        Intent intent = new Intent(getApplicationContext(), AuswahlMultiplikationActivity.class);
+        startActivity(intent);
     }
 
     private void showAuswahlSubtraktion() {
