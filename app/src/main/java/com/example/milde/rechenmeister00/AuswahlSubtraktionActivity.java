@@ -8,6 +8,6 @@ public class AuswahlSubtraktionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_auswahl_subtration);
+        setContentView(R.layout.activity_auswahl_subtraktion);
     }
 }
