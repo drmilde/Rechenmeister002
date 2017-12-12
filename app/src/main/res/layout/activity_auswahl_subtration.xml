@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:orientation="vertical"
     android:layout_gravity="center"
 
     android:background="@color/color_secondary_1_2"
     android:padding="10dp"
 
-    tools:context="com.example.milde.rechenmeister00.AuswahlAdditionActivity">
+    tools:context="com.example.milde.rechenmeister00.AuswahlSubtrationActivity">
 
     <TextView
-        android:id="@+id/tvAddition_Heading"
+        android:id="@+id/tvSubtraktion_Heading"
         style="@style/headerStyle"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Addition"
+        android:text="Subtraktion"
 
         android:layout_gravity="center"
 
@@ -34,7 +35,7 @@
         >
 
         <Button
-            android:id="@+id/btnAuswahlAddition_bis_20"
+            android:id="@+id/btnAuswahlSubtraktion_bis_20"
             style="@style/buttonStyle"
 
             android:layout_width="match_parent"
@@ -46,7 +47,7 @@
             />
 
         <Button
-            android:id="@+id/btnAuswahlAddition_bis_100"
+            android:id="@+id/btnAuswahlSubtraktion_bis_100"
             style="@style/buttonStyle"
 
             android:layout_width="match_parent"
@@ -58,7 +59,7 @@
             />
 
         <Button
-            android:id="@+id/btnAuswahlAddition_bis_1000"
+            android:id="@+id/btnAuswahlSubtraktion_bis_1000"
             style="@style/buttonStyle"
 
             android:layout_width="match_parent"

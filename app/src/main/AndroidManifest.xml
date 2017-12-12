@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".MainMenuActivity" />
         <activity android:name=".Aufgaben10Activity" />
-        <activity android:name=".AuswahlAdditionActivity"></activity>
+        <activity android:name=".AuswahlAdditionActivity" />
+        <activity android:name=".AuswahlSubtrationActivity"></activity>
     </application>
 
 </manifest>
