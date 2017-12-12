@@ -9,9 +9,7 @@
     android:padding="10dp"
     android:background="@color/color_secondary_2_1"
 
-
     tools:context="com.example.milde.rechenmeister00.MainMenuActivity">
-
 
 
     <ImageView
