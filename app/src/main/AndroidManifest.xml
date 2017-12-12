@@ -20,7 +20,8 @@
         <activity android:name=".Aufgaben10Activity" />
         <activity android:name=".AuswahlAdditionActivity" />
         <activity android:name=".AuswahlSubtraktionActivity" />
-        <activity android:name=".AuswahlMultiplikationActivity"></activity>
+        <activity android:name=".AuswahlMultiplikationActivity" />
+        <activity android:name=".AuswahlDivisionActivity"></activity>
     </application>
 
 </manifest>
