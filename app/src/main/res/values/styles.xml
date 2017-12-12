@@ -54,6 +54,13 @@
         <item name="android:textSize">@dimen/largeFontSize</item>
     </style>
 
+    <style name="headerStyle" parent="@style/buttonStyle">
+        <item name="android:background">@drawable/header_border</item>
+        <item name="android:textSize">@dimen/largeFontSize</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
 
 
 </resources>

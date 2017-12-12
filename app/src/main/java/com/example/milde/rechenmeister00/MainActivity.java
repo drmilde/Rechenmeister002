@@ -18,9 +18,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //showMainMenu();
-                showAufgaben10();
+                //showAufgaben10();
+                showAuswahlAddition();
             }
         });
+    }
+
+    private void showAuswahlAddition() {
+        Intent intent = new Intent(getApplicationContext(), AuswahlAdditionActivity.class);
+        startActivity(intent);
     }
 
     private void showAufgaben10() {

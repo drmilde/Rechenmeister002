@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    android:background="@color/color_secondary_1_2"
+    android:padding="10dp"
+
+    tools:context="com.example.milde.rechenmeister00.AuswahlAdditionActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/headerStyle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Addition"
+
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="@dimen/mediumSpacing"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnAuswahlAddition_bis_20"
+            style="@style/buttonStyle"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bis 20"
+
+            android:layout_marginBottom="@dimen/smallSpacing"
+            android:layout_marginRight="0dp"
+            />
+
+        <Button
+            android:id="@+id/btnAuswahlAddition_bis_100"
+            style="@style/buttonStyle"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bis 100"
+
+            android:layout_marginBottom="@dimen/smallSpacing"
+            android:layout_marginRight="0dp"
+            />
+
+        <Button
+            android:id="@+id/btnAuswahlAddition_bis_1000"
+            style="@style/buttonStyle"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bis 1000"
+
+            android:layout_marginBottom="@dimen/smallSpacing"
+            android:layout_marginRight="0dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

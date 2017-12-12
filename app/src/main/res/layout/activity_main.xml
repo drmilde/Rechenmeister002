@@ -13,6 +13,7 @@
     tools:context="com.example.milde.rechenmeister00.MainActivity">
 
     <TextView
+        style="@style/headerStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Willkommen!"
@@ -30,6 +31,7 @@
 
         android:layout_gravity="center"
         android:layout_marginTop="100sp"
+        android:layout_marginRight="0sp"
 
         android:text="Start"
          />
