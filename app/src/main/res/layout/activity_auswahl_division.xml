@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     android:background="@color/color_secondary_1_2"
-    android:padding="10dp"
+    android:padding="@dimen/smallSpacing"
 
 
     tools:context="com.example.milde.rechenmeister00.AuswahlDivisionActivity">

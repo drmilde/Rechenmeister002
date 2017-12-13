@@ -8,8 +8,10 @@
     <dimen name="smallFontSize">20dp</dimen>
 
     <!-- spacings -->
+    <dimen name="tinySpacing">5dp</dimen>
     <dimen name="smallSpacing">10dp</dimen>
     <dimen name="mediumSpacing">20dp</dimen>
     <dimen name="largeSpacing">30dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 
 </resources>

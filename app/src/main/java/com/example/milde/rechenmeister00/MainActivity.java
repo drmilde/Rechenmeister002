@@ -17,14 +17,20 @@ public class MainActivity extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showMainMenu();
                 //showAufgaben10();
                 //showAuswahlAddition();
                 //showAuswahlSubtraktion();
                 //showAuswahlMultiplikation();
                 //showAuswahlDivision();
+                showAuswahlMainMaterial();
+
             }
         });
+    }
+
+    private void showAuswahlMainMaterial() {
+        Intent intent = new Intent(getApplicationContext(), MainMaterialActivity.class);
+        startActivity(intent);
     }
 
     private void showAuswahlDivision() {

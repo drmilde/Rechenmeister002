@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    android:padding="10dp"
+    android:padding="@dimen/smallSpacing"
     android:background="@color/color_secondary_2_1"
 
     tools:context="com.example.milde.rechenmeister00.MainMenuActivity">
@@ -18,7 +18,7 @@
         android:layout_height="100dp"
         app:srcCompat="@color/color_secondary_1_2"
 
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="0dp"
         android:layout_gravity="center"
 
         />

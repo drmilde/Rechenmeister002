@@ -9,19 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainMenuActivity" />
+        <activity android:name=".Aufgaben10Activity" />
+        <activity android:name=".AuswahlAdditionActivity" />
+        <activity android:name=".AuswahlSubtraktionActivity" />
+        <activity android:name=".AuswahlMultiplikationActivity" />
+        <activity android:name=".AuswahlDivisionActivity" />
+        <activity
+            android:name=".MainMaterialActivity"
+            android:label="@string/title_activity_main_material"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainMenuActivity" />
-        <activity android:name=".Aufgaben10Activity" />
-        <activity android:name=".AuswahlAdditionActivity" />
-        <activity android:name=".AuswahlSubtraktionActivity" />
-        <activity android:name=".AuswahlMultiplikationActivity" />
-        <activity android:name=".AuswahlDivisionActivity"></activity>
     </application>
 
 </manifest>

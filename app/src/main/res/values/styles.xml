@@ -33,11 +33,11 @@
         <item name="android:textSize">@dimen/smallFontSize</item>
         <item name="android:textAlignment">center</item>
 
-        <item name="android:layout_width">40sp</item>
-        <item name="android:layout_height">40sp</item>
+        <item name="android:layout_width">48sp</item>
+        <item name="android:layout_height">48sp</item>
 
-        <item name="android:paddingLeft">5dp</item>
-        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
         <item name="android:paddingTop">7dp</item>
         <item name="android:paddingBottom">7dp</item>
 
@@ -47,7 +47,7 @@
 
     <style name="answerStyle" parent="@style/buttonStyle">
         <item name="android:layout_width">170dp</item>
-        <item name="android:textSize">@dimen/mediumFontSize</item>
+        <item name="android:textSize">@dimen/smallFontSize</item>
     </style>
 
     <style name="excerciseStyle" parent="@style/buttonStyle">
@@ -61,6 +61,14 @@
         <item name="android:layout_marginRight">0dp</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>
